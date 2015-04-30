@@ -7,20 +7,25 @@ li{
         font-weight: bold;       
         font-family: 'Amaranth', sans-serif;
 
+
+
 }
 #todo {
     padding: 30px 30px;
-
+    position: absolute;
+    display: inline-block;
     color:white;
     text-shadow:0.1px 0.2px 0.3px black;
-    border: solid;
-    border-color: red;
+    width: 500px;
+    height: 600px;
+    margin-left: 90px;
+    margin-top: 20px;
 
 }
 #light{
     position: relative;
     padding: 7px 35px ;
-    margin: 15px 15px ;
+    margin: 20px 15px ;
     border-radius: 15px;
     background: linear-gradient(to bottom, #FF5E3A 0%, #FF2A68 100%);
     position: relative;
@@ -34,7 +39,7 @@ li{
     background: linear-gradient(to bottom, #52EDC7 0%, #5AC8FB 100%);
          position: relative;
     padding: 7px 35px ;
-    margin: 15px 15px ;
+    margin: 20px 15px ;
         border-radius: 15px;
         width: 400px;
         font-family: 'Amaranth', sans-serif;
@@ -42,17 +47,28 @@ li{
 }
 #automatic{
     border-radius: 15px;
-        position: relative;
     padding: 7px 35px ;
-    margin: 15px 15px ;
+    margin: 20px 15px ;
         background: linear-gradient(to bottom, #C644FC 0%, #5856D6 100%);
         width: 400px;
         font-family: 'Amaranth', sans-serif;
         box-shadow: 1px 1px 3px black;
+         border: solid black ;
+}
+
+#canv{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    margin:0px 20px 20px 660px;
 }
 
 canvas{
- border: solid black ;
+ border: solid blue ;
+ margin-top: 60px;
+
+
+
     
 }
 #foot{
