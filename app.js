@@ -1,14 +1,15 @@
-var com = require("serialport");
-
-var serialPort = new com.SerialPort("/dev/tty", {
-    baudrate: 9600,
-    parser: com.parsers.readline('\r\n')
-  });
-
-serialPort.on('open',function() {
-  console.log('Port open');
+var serialport = require("serialport");
+var SerialPort = serialport.SerialPort;
+var sp = new SerialPort("/dev/cu.usbmodem1421", {
+	baudrate: 9600,
+	parser: serialport.parsers.readline("\n") 
+});
+sp.open(function () {
+	sp.on("data", function (data) {
+		var x = data;
+		console.log(x);
+	});
 });
 
-serialPort.on('data', function(data) {
-  console.log(data);
-});
+
+
