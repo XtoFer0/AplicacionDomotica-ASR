@@ -1,56 +1,62 @@
 
-              h1{
-                text-align: center;
-                color: #00ff00; 
-                font-weight: normal;
-                font-size: 40pt;
-                margin: 30px 0px;
-                font-family: 'Amaranth', sans-serif;
-                background-color:transparent;
-        }
-
-h1 {
-    color:#ff9900;
-}
 
 li{
-        list-style-type: none;
-        visibility:visible;
+    color:#d3d3d3;
         line-height: 200%;
         margin: 0px;
-        padding: 10px 25px;
         font-weight: bold;       
-        font-family: 'Amaranth', sans-serif;
-}
-div#light{
-        font-family: 'Amaranth', sans-serif;
-        position: relative;
-        padding: 10px 20px;
-        margin: auto;
-        width: 400px;
-        height: 280px;
-        border: 3px solid orange transparent;
-        background-color: rgba(221, 122, 17, 0.6);
-        
-}
-div#segurity{
-        position: relative;
-        padding: 10px 20px;
-        margin: auto;
-        width: 400px;
-        height: 180px;
-        border: 3px solid orange transparent;
-        background-color: rgba(221, 122, 17, 0.6);
         font-family: 'Amaranth', sans-serif;
 
 }
-div#automatic{
-        position: relative;
-        margin: auto;
-        padding: 10px 20px;
-        border: 3px solid orange transparent;
-        background-color: rgba(221, 122, 17, 0.6);
+#todo {
+    padding: 30px 30px;
+
+    color:white;
+    text-shadow:0.1px 0.2px 0.3px black;
+    border: solid;
+    border-color: red;
+
+}
+#light{
+    position: relative;
+    padding: 7px 35px ;
+    margin: 15px 15px ;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #FF5E3A 0%, #FF2A68 100%);
+    position: relative;
+    font-family: 'Amaranth', sans-serif;
+    width: 400px;
+    box-shadow: 1px 1px 3px black;
+
+
+}
+#segurity{
+    background: linear-gradient(to bottom, #52EDC7 0%, #5AC8FB 100%);
+         position: relative;
+    padding: 7px 35px ;
+    margin: 15px 15px ;
+        border-radius: 15px;
         width: 400px;
-        height: 130px;
         font-family: 'Amaranth', sans-serif;
+        box-shadow: 1px 1px 3px black;
+}
+#automatic{
+    border-radius: 15px;
+        position: relative;
+    padding: 7px 35px ;
+    margin: 15px 15px ;
+        background: linear-gradient(to bottom, #C644FC 0%, #5856D6 100%);
+        width: 400px;
+        font-family: 'Amaranth', sans-serif;
+        box-shadow: 1px 1px 3px black;
+}
+
+canvas{
+ border: solid black ;
+    
+}
+#foot{
+    border: 2px solid;
+    margin: 0px 0px 14px 0px;
+    color:black;
 }
